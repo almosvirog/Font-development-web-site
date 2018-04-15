@@ -3,4 +3,40 @@ html, body, app-root {
     width: 100%;
     height: 100%;
     margin: 0px;
+    overflow: hidden;
+}
+
+/* Грязный костыль. разобраться потом в чём дело */
+html-includer > div {
+    max-width: 850px;
+    margin: auto;
+    padding: 10vh 0;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+/* BOOK STYLES */
+
+p {
+    padding: 10px;
+    margin: 20px;
+    text-align: justify;
+    line-height: 2em;
+}
+
+.img-annotation {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+img {
+    min-width: 350px;
+    min-height: 200px;
+}
+
+ul {
+    line-height: 2em;
+    text-align: left;
 }

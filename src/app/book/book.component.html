@@ -1,17 +1,10 @@
-<p>
-  book works!
-</p>
 <mat-drawer-container>
-  <mat-drawer mode="side" opened>
-    <mat-list>
-      asdasd
-      asd
-      asd
-    </mat-list>
+  <mat-drawer mode="side" opened class="mat-elevation-z3">
+    <book-content #content></book-content>
   </mat-drawer>
   <mat-drawer-content>
-    123  <button type="button" mat-button (click)="drawer.toggle()">
-        Toggle sidenav
-      </button>
+    <div class="page-wrapper">
+      <page-view [paragraph]="content.selectedParagraph"></page-view>
+    </div>
   </mat-drawer-content>
 </mat-drawer-container> 

@@ -1,3 +1,23 @@
+mat-drawer-container {
+    height: 100%
+}
+
 mat-drawer {
-    min-width: 300px;
+    min-width: 400px;
+    max-width: 400px;
+}
+
+mat-drawer-content {
+    text-align: center;
+}
+
+page-view {
+    left: 100px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.page-wrapper {
+    max-width: 900px;
+    margin: auto;
 }

@@ -1,0 +1,23 @@
+mat-expansion-panel-header, mat-list-item, mat-list-item-content {
+    height: unset !important;
+}
+
+.selected {
+    background: #eee !important;
+}
+
+.mat-button {
+    width: 100%;
+}
+
+.paragraph-name {
+    font-size: 14px; 
+    margin: 0 0 13px 10px;
+    padding: 5px 5px;
+    
+}
+
+.paragraph-name:hover {
+    background: #eee !important;
+    cursor: pointer;
+}
