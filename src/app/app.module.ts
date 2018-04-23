@@ -19,17 +19,17 @@ import { HttpClientModule } from "@angular/common/http";
     AppComponent,
     BookComponent,
     AboutComponent,
-    PageViewComponent,
+    PageViewComponent, 
     BookContentComponent,
     HtmlIncluderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule,
   ],
   providers: [
     DataProviderService,
